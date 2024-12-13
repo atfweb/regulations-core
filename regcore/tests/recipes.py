@@ -1,6 +1,6 @@
 from model_mommy.recipe import Recipe
 
-from regcore.atf_models import Document
+from regcore.models import Document
 
 
 # Account for mptt-related edge case

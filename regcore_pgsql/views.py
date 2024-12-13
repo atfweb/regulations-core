@@ -2,7 +2,7 @@ from django.conf import settings
 from django.contrib.postgres.search import SearchRank, SearchQuery
 from django.db.models import F, Q
 
-from regcore.atf_models import Document
+from regcore.models import Document
 from regcore.responses import success
 from regcore_read.views.search_utils import requires_search_args
 

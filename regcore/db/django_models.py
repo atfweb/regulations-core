@@ -6,7 +6,7 @@ from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 
 from regcore.db import interface
-from regcore.atf_models import Diff, Document, Layer, Notice
+from regcore.models import Diff, Document, Layer, Notice
 
 
 def treeify(node, tree_id, pos=1, level=0):

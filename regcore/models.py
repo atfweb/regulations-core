@@ -1,7 +1,7 @@
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 
-from regcore.atf_fields import CompressedJSONField
+from regcore.fields import CompressedJSONField
 
 
 class Document(MPTTModel):
