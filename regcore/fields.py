@@ -13,7 +13,7 @@ class CompressedJSONField(models.TextField):
     layer nodes into relational databases, lest we blow the packet size limit
     """
     def to_python(self, value):
-        print('encode/decode from atf_fields.py')
+        print('encode/decode from fields.py')
         """Convert the string (from the database) into a JSON dictionary"""
         if not isinstance(value, six.text_type):
             return value
